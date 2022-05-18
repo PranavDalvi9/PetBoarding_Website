@@ -15,3 +15,7 @@
 
 <img width="939" alt="image" src="https://user-images.githubusercontent.com/96105012/169088539-36cc5ffe-02fb-4a6f-b805-ea572386fdbf.png">
 
+### Add New Entity
+<img width="938" alt="image" src="https://user-images.githubusercontent.com/96105012/169088926-38adee0f-a689-4052-b396-877addee4ddd.png">
+
+<img width="939" alt="image" src="https://user-images.githubusercontent.com/96105012/169088966-b5bcad31-4db9-4a95-99a2-5a5bb51ce975.png">
