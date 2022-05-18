@@ -66,6 +66,7 @@ export const getFilterEntityFunction =
 export const getallCitiesFunction = () => async (dispatch) => {
   try {
     let { data } = await axios.get(`https://petboarding-data-pranav.herokuapp.com/city`);
+    console.log("cityccc" , data)
     dispatch(addAllCity(data));
   } catch (err) {
     console.log(err.message);
