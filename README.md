@@ -1,9 +1,9 @@
 # PetBoarding_Website
 
-###Home Page
+### Home Page
 <img width="949" alt="image" src="https://user-images.githubusercontent.com/96105012/169086089-bffdd50f-cb90-40f1-84ab-76f6dc42534d.png">
 
-###Login Page
+### Login Page
 <img width="949" alt="image" src="https://user-images.githubusercontent.com/96105012/169086323-cc6437ac-8193-4d6f-9bd5-033fe6fa1ebb.png">
 
 
@@ -31,3 +31,7 @@
 
 ### Filter By City
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/96105012/169089654-ff418831-1104-4d38-8c33-e4bbc43a494c.png">
+
+### Filter By Verified
+<img width="950" alt="image" src="https://user-images.githubusercontent.com/96105012/169089781-8788516b-cc87-4d54-bc7a-c833f762981b.png">
+
