@@ -14,10 +14,8 @@ import {
   getAllEntityFunction,
   getFilterEntityFunction,
 } from "../Redux/Entity/action";
-import { store } from "../Redux/store";
 import { setPage, setRowsPerPage } from "../Redux/Pagination/action";
 import Pagination from "@mui/material/Pagination";
-import { ColorButton } from "./CreateEntity";
 import { InputLabel, MenuItem, Select } from "@mui/material";
 import { nanoid } from "nanoid";
 import { useNavigate } from "react-router-dom";
@@ -172,7 +170,7 @@ export const CustomizedTables = ({ data }) => {
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell>Id</StyledTableCell>
+            {/* <StyledTableCell>Id</StyledTableCell> */}
             <StyledTableCell>Name</StyledTableCell>
             <StyledTableCell>City</StyledTableCell>
             <StyledTableCell>Address</StyledTableCell>
@@ -191,7 +189,7 @@ export const CustomizedTables = ({ data }) => {
                 }}
                 key={_id}
               >
-                <StyledTableCell>{_id}</StyledTableCell>
+                {/* <StyledTableCell>{_id}</StyledTableCell> */}
                 <StyledTableCell component="th" scope="row">
                   {name}
                 </StyledTableCell>

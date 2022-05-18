@@ -16,11 +16,11 @@ export const getAllEntityFunction = (page, skip) => async (dispatch) => {
   try {
      
     let { data } = await axios.get(
-      `https://petsiteserver.herokuapp.com/petData?page=${page}&size=${skip}`
+      `https://petboarding-data-pranav.herokuapp.com/petData?page=${page}&size=${skip}`
     );
     // console.log(data);
     dispatch(addAllEntity(data));
-    let count = await axios.get("https://petsiteserver.herokuapp.com/petData");
+    let count = await axios.get("https://petboarding-data-pranav.herokuapp.com/petData");
     dispatch(totalCount(count.data.length));
   } catch (err) {
     console.log(err.message);
@@ -29,9 +29,11 @@ export const getAllEntityFunction = (page, skip) => async (dispatch) => {
 
 export const addEntityFunction = (body) => async (dispatch) => {
   try {
-    let { data } = await axios.post("https://petsiteserver.herokuapp.com/petData", body);
+    let { data } = await axios.post("https://petboarding-data-pranav.herokuapp.com/petData", body);
     // console.log(data);
-    dispatch(getAllEntityFunction());
+    dispatch(getAllEntityFunction())
+    alert("Successfully Added")
+    ;
   } catch (err) {
     console.log(err.message);
   }
@@ -40,7 +42,7 @@ export const addEntityFunction = (body) => async (dispatch) => {
 export const getFilterEntityFunction =
   (page, skip, filter) => async (dispatch) => {
     try {
-      let { data } = await axios.get(`https://petsiteserver.herokuapp.com/petData`);
+      let { data } = await axios.get(`https://petboarding-data-pranav.herokuapp.com/petData`);
       if (filter.city != "") {
         data = data.filter((el) => el.city == filter.city);
       }
@@ -63,7 +65,7 @@ export const getFilterEntityFunction =
 
 export const getallCitiesFunction = () => async (dispatch) => {
   try {
-    let { data } = await axios.get(`https://petsiteserver.herokuapp.com/city`);
+    let { data } = await axios.get(`https://petboarding-data-pranav.herokuapp.com/city`);
     dispatch(addAllCity(data));
   } catch (err) {
     console.log(err.message);

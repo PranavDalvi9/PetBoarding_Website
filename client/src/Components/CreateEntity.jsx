@@ -1,7 +1,5 @@
-import styled from "@emotion/styled";
 import { InputLabel, MenuItem, Select } from "@mui/material";
 import Button from "@mui/material/Button";
-import { purple } from "@mui/material/colors";
 import TextField from "@mui/material/TextField";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
@@ -234,18 +232,11 @@ export const CreateEntityPage = () => {
           rows={3}
           margin="normal"
         />
-        <ColorButton onClick={handleSubmit} variant="contained">
+        <Button onClick={handleSubmit} variant="contained">
           Submit
-        </ColorButton>
+        </Button>
       </div>
     </div>
   );
 };
 
-export const ColorButton = styled(Button)(({ theme }) => ({
-  color: "white",
-  backgroundColor: purple[500],
-  "&:hover": {
-    backgroundColor: purple[700],
-  },
-}));
