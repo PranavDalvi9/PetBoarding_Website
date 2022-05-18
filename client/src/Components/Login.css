@@ -14,13 +14,17 @@ input{
     padding: 1%;
     width: 37%;
     border: transparent;
-    background-color:#B4FF9F;
-    color: #FFA1A1;
+    background-color:#EEB0B0;
+    color: #7D1E6A;
     font-weight: bolder;
     font-size: larger;
 }
 
 .NavDiv{
     /* border: 2px solid red; */
-    background-color: #FFA1A1;
+    background-color: #BDE6F1;
+    color: #FFE59D;
+}
+h1{
+    color: #7D1E6A;
 }
