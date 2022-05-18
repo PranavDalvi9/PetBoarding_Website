@@ -27,9 +27,9 @@ export const AllRoutes = () => {
         <Route path="/login" element={<LogIn />} />
 
 
-        <Route path='/' element={
+        {/* <Route path='/' element={
           <PrivateRoute isAuthenticate={isAuthenticate}><Home/></PrivateRoute>
-        }></Route>
+        }></Route> */}
 
 <Route path='/listing/:id' element={
           <PrivateRoute isAuthenticate={isAuthenticate}><EntityPage /></PrivateRoute>
@@ -40,8 +40,9 @@ export const AllRoutes = () => {
         }></Route>
 
 <Route path="/register" element={<Register />} />
-
+<Route path="/" element={<Home />} />
       </Routes>
     </>
   );
 };
+
