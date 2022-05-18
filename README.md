@@ -27,3 +27,7 @@
 
 ### Sort By Rating
 <img width="955" alt="image" src="https://user-images.githubusercontent.com/96105012/169089489-12bbeccb-60de-4d24-a046-daf67abba0e5.png">
+
+
+### Filter By City
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/96105012/169089654-ff418831-1104-4d38-8c33-e4bbc43a494c.png">
