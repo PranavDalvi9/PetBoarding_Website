@@ -23,3 +23,7 @@
 
 ### Sort By Cost
 <img width="949" alt="image" src="https://user-images.githubusercontent.com/96105012/169089301-a1c5903b-6543-4d26-94f1-8ea49ad8d620.png">
+
+
+### Sort By Rating
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/96105012/169089489-12bbeccb-60de-4d24-a046-daf67abba0e5.png">
